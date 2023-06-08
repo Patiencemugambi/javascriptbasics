@@ -20,7 +20,7 @@ let redLabel = false
 let gordons = true
 let konyagi = true
 
-
+//if - always true unless stated otherwise
 if (blackLabel){//check if black label is set to true or false
     console.log("Niletee")//Print "Nilete"
 }
