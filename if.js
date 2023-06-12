@@ -40,7 +40,7 @@ else{//If none of the conditions are true
 //A -70 to 100
 //B -50 to 69
 //c -0 to 49
-let studentMarks = 81;//variable to store the student marks
+let studentMarks = 181;//variable to store the student marks
 
 if (studentMarks >=70 && studentMarks <=100){ //remember to add the equal to sign for the limits
     console.log("Congrats! you got an A")
@@ -55,5 +55,20 @@ else if(studentMarks == 0){//if studentMarks is exactly zero
     console.log("You have failed")
 }
 else{
-    console.log("Number out of range")
+    console.log("Invalid student marks")
 }
+
+
+//NB: Include this section before starting the if condition for clarity
+//student marks btn 80-100 get A
+//student marks btn 60-79 get B
+//student marks btn 40 -59 get C
+//student marks btn 20-39 get D
+//student marks btn0-19 get F
+//student marks below 0 get "Out of range"
+//student marks over 100 get "Out of range"
+
+
+
+
+

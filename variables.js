@@ -1,3 +1,5 @@
+//Variables 
+
 // The general rules for constructing names for variables (unique identifiers) are:
 
 // Names can contain letters, digits, underscores, and dollar signs.
